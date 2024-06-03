@@ -1,0 +1,272 @@
+-----------------------------------------------------------------------------------------------------------------
+lr=0.00001, momentum=0.99, weight_decay=0.1 dropout=0.7
+
+Fold 1/5
+Some weights of DeiTForImageClassification were not initialized from the model checkpoint at hugging_face/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch [1/30], Train Loss: 0.6616, Train Acc: 0.5923, Val Loss: 0.5581, Val Acc: 0.7061, F1 Score: 0.7100, Recall: 0.8200, Precision: 0.6260, Sensitivity: 0.8200, Specificity: 0.6172, MCC: 0.4388, AUC: 0.7186
+Epoch [2/30], Train Loss: 0.5054, Train Acc: 0.7615, Val Loss: 0.3842, Val Acc: 0.8509, F1 Score: 0.8317, Recall: 0.8400, Precision: 0.8235, Sensitivity: 0.8400, Specificity: 0.8594, MCC: 0.6980, AUC: 0.8497
+Epoch [3/30], Train Loss: 0.3955, Train Acc: 0.8154, Val Loss: 0.3223, Val Acc: 0.8816, F1 Score: 0.8696, Recall: 0.9000, Precision: 0.8411, Sensitivity: 0.9000, Specificity: 0.8672, MCC: 0.7628, AUC: 0.8836
+Epoch [4/30], Train Loss: 0.3106, Train Acc: 0.8516, Val Loss: 0.2252, Val Acc: 0.9123, F1 Score: 0.9000, Recall: 0.9000, Precision: 0.9000, Sensitivity: 0.9000, Specificity: 0.9219, MCC: 0.8219, AUC: 0.9109
+Epoch [5/30], Train Loss: 0.2388, Train Acc: 0.9099, Val Loss: 0.1970, Val Acc: 0.9342, F1 Score: 0.9282, Recall: 0.9700, Precision: 0.8899, Sensitivity: 0.9700, Specificity: 0.9062, MCC: 0.8705, AUC: 0.9381
+Epoch [6/30], Train Loss: 0.1928, Train Acc: 0.9319, Val Loss: 0.1611, Val Acc: 0.9298, F1 Score: 0.9208, Recall: 0.9300, Precision: 0.9118, Sensitivity: 0.9300, Specificity: 0.9297, MCC: 0.8579, AUC: 0.9298
+Epoch [7/30], Train Loss: 0.1681, Train Acc: 0.9451, Val Loss: 0.1750, Val Acc: 0.9298, F1 Score: 0.9208, Recall: 0.9300, Precision: 0.9118, Sensitivity: 0.9300, Specificity: 0.9297, MCC: 0.8579, AUC: 0.9298
+Epoch [8/30], Train Loss: 0.1540, Train Acc: 0.9505, Val Loss: 0.1430, Val Acc: 0.9474, F1 Score: 0.9417, Recall: 0.9700, Precision: 0.9151, Sensitivity: 0.9700, Specificity: 0.9297, MCC: 0.8951, AUC: 0.9498
+Epoch [9/30], Train Loss: 0.1438, Train Acc: 0.9429, Val Loss: 0.1356, Val Acc: 0.9430, F1 Score: 0.9340, Recall: 0.9200, Precision: 0.9485, Sensitivity: 0.9200, Specificity: 0.9609, MCC: 0.8842, AUC: 0.9405
+Epoch [10/30], Train Loss: 0.1223, Train Acc: 0.9571, Val Loss: 0.1228, Val Acc: 0.9518, F1 Score: 0.9463, Recall: 0.9700, Precision: 0.9238, Sensitivity: 0.9700, Specificity: 0.9375, MCC: 0.9035, AUC: 0.9537
+Epoch [11/30], Train Loss: 0.1202, Train Acc: 0.9593, Val Loss: 0.1319, Val Acc: 0.9561, F1 Score: 0.9505, Recall: 0.9600, Precision: 0.9412, Sensitivity: 0.9600, Specificity: 0.9531, MCC: 0.9113, AUC: 0.9566
+Epoch [12/30], Train Loss: 0.1195, Train Acc: 0.9582, Val Loss: 0.1583, Val Acc: 0.9386, F1 Score: 0.9307, Recall: 0.9400, Precision: 0.9216, Sensitivity: 0.9400, Specificity: 0.9375, MCC: 0.8757, AUC: 0.9387
+Epoch [13/30], Train Loss: 0.1241, Train Acc: 0.9538, Val Loss: 0.1185, Val Acc: 0.9430, F1 Score: 0.9366, Recall: 0.9600, Precision: 0.9143, Sensitivity: 0.9600, Specificity: 0.9297, MCC: 0.8857, AUC: 0.9448
+Epoch [14/30], Train Loss: 0.1204, Train Acc: 0.9626, Val Loss: 0.1272, Val Acc: 0.9605, F1 Score: 0.9557, Recall: 0.9700, Precision: 0.9417, Sensitivity: 0.9700, Specificity: 0.9531, MCC: 0.9204, AUC: 0.9616
+Epoch [15/30], Train Loss: 0.1216, Train Acc: 0.9615, Val Loss: 0.1268, Val Acc: 0.9386, F1 Score: 0.9307, Recall: 0.9400, Precision: 0.9216, Sensitivity: 0.9400, Specificity: 0.9375, MCC: 0.8757, AUC: 0.9387
+Epoch [16/30], Train Loss: 0.1179, Train Acc: 0.9648, Val Loss: 0.1180, Val Acc: 0.9561, F1 Score: 0.9510, Recall: 0.9700, Precision: 0.9327, Sensitivity: 0.9700, Specificity: 0.9453, MCC: 0.9119, AUC: 0.9577
+Epoch [17/30], Train Loss: 0.1178, Train Acc: 0.9648, Val Loss: 0.1344, Val Acc: 0.9518, F1 Score: 0.9463, Recall: 0.9700, Precision: 0.9238, Sensitivity: 0.9700, Specificity: 0.9375, MCC: 0.9035, AUC: 0.9537
+Epoch [18/30], Train Loss: 0.1159, Train Acc: 0.9648, Val Loss: 0.1452, Val Acc: 0.9474, F1 Score: 0.9417, Recall: 0.9700, Precision: 0.9151, Sensitivity: 0.9700, Specificity: 0.9297, MCC: 0.8951, AUC: 0.9498
+Epoch [19/30], Train Loss: 0.1170, Train Acc: 0.9582, Val Loss: 0.1190, Val Acc: 0.9605, F1 Score: 0.9561, Recall: 0.9800, Precision: 0.9333, Sensitivity: 0.9800, Specificity: 0.9453, MCC: 0.9212, AUC: 0.9627
+Epoch [20/30], Train Loss: 0.1217, Train Acc: 0.9571, Val Loss: 0.1449, Val Acc: 0.9474, F1 Score: 0.9406, Recall: 0.9500, Precision: 0.9314, Sensitivity: 0.9500, Specificity: 0.9453, MCC: 0.8935, AUC: 0.9477
+Epoch [21/30], Train Loss: 0.1156, Train Acc: 0.9637, Val Loss: 0.1172, Val Acc: 0.9649, F1 Score: 0.9608, Recall: 0.9800, Precision: 0.9423, Sensitivity: 0.9800, Specificity: 0.9531, MCC: 0.9296, AUC: 0.9666
+Epoch [22/30], Train Loss: 0.1135, Train Acc: 0.9659, Val Loss: 0.1397, Val Acc: 0.9430, F1 Score: 0.9360, Recall: 0.9500, Precision: 0.9223, Sensitivity: 0.9500, Specificity: 0.9375, MCC: 0.8849, AUC: 0.9437
+Epoch [23/30], Train Loss: 0.1098, Train Acc: 0.9670, Val Loss: 0.1242, Val Acc: 0.9430, F1 Score: 0.9360, Recall: 0.9500, Precision: 0.9223, Sensitivity: 0.9500, Specificity: 0.9375, MCC: 0.8849, AUC: 0.9437
+Epoch [24/30], Train Loss: 0.1167, Train Acc: 0.9648, Val Loss: 0.1171, Val Acc: 0.9649, F1 Score: 0.9604, Recall: 0.9700, Precision: 0.9510, Sensitivity: 0.9700, Specificity: 0.9609, MCC: 0.9291, AUC: 0.9655
+Epoch [25/30], Train Loss: 0.1143, Train Acc: 0.9626, Val Loss: 0.1226, Val Acc: 0.9518, F1 Score: 0.9463, Recall: 0.9700, Precision: 0.9238, Sensitivity: 0.9700, Specificity: 0.9375, MCC: 0.9035, AUC: 0.9537
+Epoch [26/30], Train Loss: 0.1172, Train Acc: 0.9670, Val Loss: 0.1229, Val Acc: 0.9518, F1 Score: 0.9458, Recall: 0.9600, Precision: 0.9320, Sensitivity: 0.9600, Specificity: 0.9453, MCC: 0.9027, AUC: 0.9527
+Epoch [27/30], Train Loss: 0.1119, Train Acc: 0.9637, Val Loss: 0.1205, Val Acc: 0.9474, F1 Score: 0.9417, Recall: 0.9700, Precision: 0.9151, Sensitivity: 0.9700, Specificity: 0.9297, MCC: 0.8951, AUC: 0.9498
+Epoch [28/30], Train Loss: 0.1180, Train Acc: 0.9659, Val Loss: 0.1217, Val Acc: 0.9518, F1 Score: 0.9453, Recall: 0.9500, Precision: 0.9406, Sensitivity: 0.9500, Specificity: 0.9531, MCC: 0.9022, AUC: 0.9516
+Epoch [29/30], Train Loss: 0.1118, Train Acc: 0.9626, Val Loss: 0.1290, Val Acc: 0.9430, F1 Score: 0.9360, Recall: 0.9500, Precision: 0.9223, Sensitivity: 0.9500, Specificity: 0.9375, MCC: 0.8849, AUC: 0.9437
+Epoch [30/30], Train Loss: 0.1109, Train Acc: 0.9648, Val Loss: 0.1285, Val Acc: 0.9474, F1 Score: 0.9412, Recall: 0.9600, Precision: 0.9231, Sensitivity: 0.9600, Specificity: 0.9375, MCC: 0.8942, AUC: 0.9487
+Fold 2/5
+Some weights of DeiTForImageClassification were not initialized from the model checkpoint at hugging_face/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch [1/30], Train Loss: 0.6691, Train Acc: 0.6055, Val Loss: 0.5643, Val Acc: 0.7675, F1 Score: 0.7558, Recall: 0.7193, Precision: 0.7961, Sensitivity: 0.7193, Specificity: 0.8158, MCC: 0.5376, AUC: 0.7675
+Epoch [2/30], Train Loss: 0.4824, Train Acc: 0.8011, Val Loss: 0.3975, Val Acc: 0.8158, F1 Score: 0.8142, Recall: 0.8070, Precision: 0.8214, Sensitivity: 0.8070, Specificity: 0.8246, MCC: 0.6317, AUC: 0.8158
+Epoch [3/30], Train Loss: 0.3830, Train Acc: 0.8209, Val Loss: 0.3074, Val Acc: 0.8640, F1 Score: 0.8584, Recall: 0.8246, Precision: 0.8952, Sensitivity: 0.8246, Specificity: 0.9035, MCC: 0.7303, AUC: 0.8640
+Epoch [4/30], Train Loss: 0.3183, Train Acc: 0.8516, Val Loss: 0.2791, Val Acc: 0.8509, F1 Score: 0.8426, Recall: 0.7982, Precision: 0.8922, Sensitivity: 0.7982, Specificity: 0.9035, MCC: 0.7057, AUC: 0.8509
+Epoch [5/30], Train Loss: 0.2544, Train Acc: 0.8989, Val Loss: 0.2102, Val Acc: 0.9254, F1 Score: 0.9258, Recall: 0.9298, Precision: 0.9217, Sensitivity: 0.9298, Specificity: 0.9211, MCC: 0.8509, AUC: 0.9254
+Epoch [6/30], Train Loss: 0.2099, Train Acc: 0.9297, Val Loss: 0.1942, Val Acc: 0.9298, F1 Score: 0.9292, Recall: 0.9211, Precision: 0.9375, Sensitivity: 0.9211, Specificity: 0.9386, MCC: 0.8598, AUC: 0.9298
+Epoch [7/30], Train Loss: 0.1786, Train Acc: 0.9429, Val Loss: 0.1648, Val Acc: 0.9342, F1 Score: 0.9356, Recall: 0.9561, Precision: 0.9160, Sensitivity: 0.9561, Specificity: 0.9123, MCC: 0.8693, AUC: 0.9342
+Epoch [8/30], Train Loss: 0.1732, Train Acc: 0.9330, Val Loss: 0.1599, Val Acc: 0.9254, F1 Score: 0.9244, Recall: 0.9123, Precision: 0.9369, Sensitivity: 0.9123, Specificity: 0.9386, MCC: 0.8512, AUC: 0.9254
+Epoch [9/30], Train Loss: 0.1486, Train Acc: 0.9495, Val Loss: 0.1445, Val Acc: 0.9298, F1 Score: 0.9304, Recall: 0.9386, Precision: 0.9224, Sensitivity: 0.9386, Specificity: 0.9211, MCC: 0.8598, AUC: 0.9298
+Epoch [10/30], Train Loss: 0.1414, Train Acc: 0.9484, Val Loss: 0.1543, Val Acc: 0.9561, F1 Score: 0.9558, Recall: 0.9474, Precision: 0.9643, Sensitivity: 0.9474, Specificity: 0.9649, MCC: 0.9124, AUC: 0.9561
+Epoch [11/30], Train Loss: 0.1244, Train Acc: 0.9593, Val Loss: 0.1420, Val Acc: 0.9386, F1 Score: 0.9381, Recall: 0.9298, Precision: 0.9464, Sensitivity: 0.9298, Specificity: 0.9474, MCC: 0.8773, AUC: 0.9386
+Epoch [12/30], Train Loss: 0.1327, Train Acc: 0.9538, Val Loss: 0.1441, Val Acc: 0.9211, F1 Score: 0.9211, Recall: 0.9211, Precision: 0.9211, Sensitivity: 0.9211, Specificity: 0.9211, MCC: 0.8421, AUC: 0.9211
+Epoch [13/30], Train Loss: 0.1271, Train Acc: 0.9582, Val Loss: 0.1546, Val Acc: 0.9386, F1 Score: 0.9397, Recall: 0.9561, Precision: 0.9237, Sensitivity: 0.9561, Specificity: 0.9211, MCC: 0.8777, AUC: 0.9386
+Epoch [14/30], Train Loss: 0.1277, Train Acc: 0.9571, Val Loss: 0.1612, Val Acc: 0.9386, F1 Score: 0.9386, Recall: 0.9386, Precision: 0.9386, Sensitivity: 0.9386, Specificity: 0.9386, MCC: 0.8772, AUC: 0.9386
+Epoch [15/30], Train Loss: 0.1265, Train Acc: 0.9615, Val Loss: 0.1516, Val Acc: 0.9211, F1 Score: 0.9204, Recall: 0.9123, Precision: 0.9286, Sensitivity: 0.9123, Specificity: 0.9298, MCC: 0.8422, AUC: 0.9211
+Epoch [16/30], Train Loss: 0.1261, Train Acc: 0.9593, Val Loss: 0.1436, Val Acc: 0.9167, F1 Score: 0.9177, Recall: 0.9298, Precision: 0.9060, Sensitivity: 0.9298, Specificity: 0.9035, MCC: 0.8336, AUC: 0.9167
+Epoch [17/30], Train Loss: 0.1252, Train Acc: 0.9615, Val Loss: 0.1497, Val Acc: 0.9167, F1 Score: 0.9177, Recall: 0.9298, Precision: 0.9060, Sensitivity: 0.9298, Specificity: 0.9035, MCC: 0.8336, AUC: 0.9167
+Epoch [18/30], Train Loss: 0.1206, Train Acc: 0.9648, Val Loss: 0.1655, Val Acc: 0.9386, F1 Score: 0.9391, Recall: 0.9474, Precision: 0.9310, Sensitivity: 0.9474, Specificity: 0.9298, MCC: 0.8773, AUC: 0.9386
+Epoch [19/30], Train Loss: 0.1216, Train Acc: 0.9659, Val Loss: 0.1395, Val Acc: 0.9342, F1 Score: 0.9356, Recall: 0.9561, Precision: 0.9160, Sensitivity: 0.9561, Specificity: 0.9123, MCC: 0.8693, AUC: 0.9342
+Epoch [20/30], Train Loss: 0.1211, Train Acc: 0.9582, Val Loss: 0.1368, Val Acc: 0.9254, F1 Score: 0.9264, Recall: 0.9386, Precision: 0.9145, Sensitivity: 0.9386, Specificity: 0.9123, MCC: 0.8512, AUC: 0.9254
+Epoch [21/30], Train Loss: 0.1203, Train Acc: 0.9670, Val Loss: 0.1495, Val Acc: 0.9298, F1 Score: 0.9298, Recall: 0.9298, Precision: 0.9298, Sensitivity: 0.9298, Specificity: 0.9298, MCC: 0.8596, AUC: 0.9298
+Epoch [22/30], Train Loss: 0.1260, Train Acc: 0.9571, Val Loss: 0.1421, Val Acc: 0.9254, F1 Score: 0.9264, Recall: 0.9386, Precision: 0.9145, Sensitivity: 0.9386, Specificity: 0.9123, MCC: 0.8512, AUC: 0.9254
+Epoch [23/30], Train Loss: 0.1250, Train Acc: 0.9615, Val Loss: 0.1475, Val Acc: 0.9342, F1 Score: 0.9339, Recall: 0.9298, Precision: 0.9381, Sensitivity: 0.9298, Specificity: 0.9386, MCC: 0.8685, AUC: 0.9342
+Epoch [24/30], Train Loss: 0.1205, Train Acc: 0.9604, Val Loss: 0.1481, Val Acc: 0.9430, F1 Score: 0.9442, Recall: 0.9649, Precision: 0.9244, Sensitivity: 0.9649, Specificity: 0.9211, MCC: 0.8868, AUC: 0.9430
+Epoch [25/30], Train Loss: 0.1214, Train Acc: 0.9604, Val Loss: 0.1453, Val Acc: 0.9386, F1 Score: 0.9386, Recall: 0.9386, Precision: 0.9386, Sensitivity: 0.9386, Specificity: 0.9386, MCC: 0.8772, AUC: 0.9386
+Epoch [26/30], Train Loss: 0.1187, Train Acc: 0.9604, Val Loss: 0.1414, Val Acc: 0.9342, F1 Score: 0.9345, Recall: 0.9386, Precision: 0.9304, Sensitivity: 0.9386, Specificity: 0.9298, MCC: 0.8685, AUC: 0.9342
+Epoch [27/30], Train Loss: 0.1233, Train Acc: 0.9604, Val Loss: 0.1398, Val Acc: 0.9430, F1 Score: 0.9437, Recall: 0.9561, Precision: 0.9316, Sensitivity: 0.9561, Specificity: 0.9298, MCC: 0.8863, AUC: 0.9430
+Epoch [28/30], Train Loss: 0.1171, Train Acc: 0.9659, Val Loss: 0.1445, Val Acc: 0.9254, F1 Score: 0.9264, Recall: 0.9386, Precision: 0.9145, Sensitivity: 0.9386, Specificity: 0.9123, MCC: 0.8512, AUC: 0.9254
+Epoch [29/30], Train Loss: 0.1224, Train Acc: 0.9648, Val Loss: 0.1418, Val Acc: 0.9254, F1 Score: 0.9270, Recall: 0.9474, Precision: 0.9076, Sensitivity: 0.9474, Specificity: 0.9035, MCC: 0.8517, AUC: 0.9254
+Epoch [30/30], Train Loss: 0.1173, Train Acc: 0.9648, Val Loss: 0.1445, Val Acc: 0.9254, F1 Score: 0.9270, Recall: 0.9474, Precision: 0.9076, Sensitivity: 0.9474, Specificity: 0.9035, MCC: 0.8517, AUC: 0.9254
+Fold 3/5
+Some weights of DeiTForImageClassification were not initialized from the model checkpoint at hugging_face/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch [1/30], Train Loss: 0.7134, Train Acc: 0.5000, Val Loss: 0.5901, Val Acc: 0.6886, F1 Score: 0.7341, Recall: 0.9074, Precision: 0.6164, Sensitivity: 0.9074, Specificity: 0.4917, MCC: 0.4337, AUC: 0.6995
+Epoch [2/30], Train Loss: 0.4947, Train Acc: 0.7681, Val Loss: 0.4509, Val Acc: 0.7807, F1 Score: 0.7917, Recall: 0.8796, Precision: 0.7197, Sensitivity: 0.8796, Specificity: 0.6917, MCC: 0.5778, AUC: 0.7856
+Epoch [3/30], Train Loss: 0.3846, Train Acc: 0.8220, Val Loss: 0.4128, Val Acc: 0.7982, F1 Score: 0.8083, Recall: 0.8981, Precision: 0.7348, Sensitivity: 0.8981, Specificity: 0.7083, MCC: 0.6133, AUC: 0.8032
+Epoch [4/30], Train Loss: 0.3125, Train Acc: 0.8495, Val Loss: 0.3076, Val Acc: 0.8289, F1 Score: 0.8282, Recall: 0.8704, Precision: 0.7899, Sensitivity: 0.8704, Specificity: 0.7917, MCC: 0.6618, AUC: 0.8310
+Epoch [5/30], Train Loss: 0.2352, Train Acc: 0.8956, Val Loss: 0.2627, Val Acc: 0.9035, F1 Score: 0.9018, Recall: 0.9352, Precision: 0.8707, Sensitivity: 0.9352, Specificity: 0.8750, MCC: 0.8092, AUC: 0.9051
+Epoch [6/30], Train Loss: 0.1961, Train Acc: 0.9275, Val Loss: 0.2226, Val Acc: 0.9342, F1 Score: 0.9321, Recall: 0.9537, Precision: 0.9115, Sensitivity: 0.9537, Specificity: 0.9167, MCC: 0.8692, AUC: 0.9352
+Epoch [7/30], Train Loss: 0.1743, Train Acc: 0.9352, Val Loss: 0.2119, Val Acc: 0.9386, F1 Score: 0.9375, Recall: 0.9722, Precision: 0.9052, Sensitivity: 0.9722, Specificity: 0.9083, MCC: 0.8795, AUC: 0.9403
+Epoch [8/30], Train Loss: 0.1553, Train Acc: 0.9385, Val Loss: 0.2042, Val Acc: 0.9386, F1 Score: 0.9369, Recall: 0.9630, Precision: 0.9123, Sensitivity: 0.9630, Specificity: 0.9167, MCC: 0.8784, AUC: 0.9398
+Epoch [9/30], Train Loss: 0.1407, Train Acc: 0.9495, Val Loss: 0.1662, Val Acc: 0.9386, F1 Score: 0.9364, Recall: 0.9537, Precision: 0.9196, Sensitivity: 0.9537, Specificity: 0.9250, MCC: 0.8776, AUC: 0.9394
+Epoch [10/30], Train Loss: 0.1280, Train Acc: 0.9473, Val Loss: 0.1822, Val Acc: 0.9430, F1 Score: 0.9406, Recall: 0.9537, Precision: 0.9279, Sensitivity: 0.9537, Specificity: 0.9333, MCC: 0.8861, AUC: 0.9435
+Epoch [11/30], Train Loss: 0.1214, Train Acc: 0.9549, Val Loss: 0.1723, Val Acc: 0.9386, F1 Score: 0.9364, Recall: 0.9537, Precision: 0.9196, Sensitivity: 0.9537, Specificity: 0.9250, MCC: 0.8776, AUC: 0.9394
+Epoch [12/30], Train Loss: 0.1253, Train Acc: 0.9505, Val Loss: 0.1765, Val Acc: 0.9474, F1 Score: 0.9459, Recall: 0.9722, Precision: 0.9211, Sensitivity: 0.9722, Specificity: 0.9250, MCC: 0.8960, AUC: 0.9486
+Epoch [13/30], Train Loss: 0.1196, Train Acc: 0.9538, Val Loss: 0.2351, Val Acc: 0.9430, F1 Score: 0.9406, Recall: 0.9537, Precision: 0.9279, Sensitivity: 0.9537, Specificity: 0.9333, MCC: 0.8861, AUC: 0.9435
+Epoch [14/30], Train Loss: 0.1184, Train Acc: 0.9516, Val Loss: 0.1784, Val Acc: 0.9474, F1 Score: 0.9455, Recall: 0.9630, Precision: 0.9286, Sensitivity: 0.9630, Specificity: 0.9333, MCC: 0.8952, AUC: 0.9481
+Epoch [15/30], Train Loss: 0.1208, Train Acc: 0.9484, Val Loss: 0.1765, Val Acc: 0.9430, F1 Score: 0.9412, Recall: 0.9630, Precision: 0.9204, Sensitivity: 0.9630, Specificity: 0.9250, MCC: 0.8868, AUC: 0.9440
+Epoch [16/30], Train Loss: 0.1178, Train Acc: 0.9549, Val Loss: 0.1628, Val Acc: 0.9474, F1 Score: 0.9459, Recall: 0.9722, Precision: 0.9211, Sensitivity: 0.9722, Specificity: 0.9250, MCC: 0.8960, AUC: 0.9486
+Epoch [17/30], Train Loss: 0.1156, Train Acc: 0.9571, Val Loss: 0.1601, Val Acc: 0.9430, F1 Score: 0.9406, Recall: 0.9537, Precision: 0.9279, Sensitivity: 0.9537, Specificity: 0.9333, MCC: 0.8861, AUC: 0.9435
+Epoch [18/30], Train Loss: 0.1157, Train Acc: 0.9538, Val Loss: 0.1667, Val Acc: 0.9430, F1 Score: 0.9417, Recall: 0.9722, Precision: 0.9130, Sensitivity: 0.9722, Specificity: 0.9167, MCC: 0.8877, AUC: 0.9444
+Epoch [19/30], Train Loss: 0.1203, Train Acc: 0.9527, Val Loss: 0.1872, Val Acc: 0.9430, F1 Score: 0.9406, Recall: 0.9537, Precision: 0.9279, Sensitivity: 0.9537, Specificity: 0.9333, MCC: 0.8861, AUC: 0.9435
+Epoch [20/30], Train Loss: 0.1161, Train Acc: 0.9527, Val Loss: 0.1687, Val Acc: 0.9386, F1 Score: 0.9369, Recall: 0.9630, Precision: 0.9123, Sensitivity: 0.9630, Specificity: 0.9167, MCC: 0.8784, AUC: 0.9398
+Epoch [21/30], Train Loss: 0.1125, Train Acc: 0.9560, Val Loss: 0.1715, Val Acc: 0.9342, F1 Score: 0.9321, Recall: 0.9537, Precision: 0.9115, Sensitivity: 0.9537, Specificity: 0.9167, MCC: 0.8692, AUC: 0.9352
+Epoch [22/30], Train Loss: 0.1168, Train Acc: 0.9549, Val Loss: 0.1609, Val Acc: 0.9430, F1 Score: 0.9412, Recall: 0.9630, Precision: 0.9204, Sensitivity: 0.9630, Specificity: 0.9250, MCC: 0.8868, AUC: 0.9440
+Epoch [23/30], Train Loss: 0.1145, Train Acc: 0.9538, Val Loss: 0.1626, Val Acc: 0.9430, F1 Score: 0.9412, Recall: 0.9630, Precision: 0.9204, Sensitivity: 0.9630, Specificity: 0.9250, MCC: 0.8868, AUC: 0.9440
+Epoch [24/30], Train Loss: 0.1138, Train Acc: 0.9582, Val Loss: 0.1612, Val Acc: 0.9474, F1 Score: 0.9459, Recall: 0.9722, Precision: 0.9211, Sensitivity: 0.9722, Specificity: 0.9250, MCC: 0.8960, AUC: 0.9486
+Epoch [25/30], Train Loss: 0.1109, Train Acc: 0.9571, Val Loss: 0.1640, Val Acc: 0.9430, F1 Score: 0.9412, Recall: 0.9630, Precision: 0.9204, Sensitivity: 0.9630, Specificity: 0.9250, MCC: 0.8868, AUC: 0.9440
+Epoch [26/30], Train Loss: 0.1138, Train Acc: 0.9549, Val Loss: 0.1932, Val Acc: 0.9430, F1 Score: 0.9417, Recall: 0.9722, Precision: 0.9130, Sensitivity: 0.9722, Specificity: 0.9167, MCC: 0.8877, AUC: 0.9444
+Epoch [27/30], Train Loss: 0.1148, Train Acc: 0.9604, Val Loss: 0.2071, Val Acc: 0.9518, F1 Score: 0.9507, Recall: 0.9815, Precision: 0.9217, Sensitivity: 0.9815, Specificity: 0.9250, MCC: 0.9053, AUC: 0.9532
+Epoch [28/30], Train Loss: 0.1177, Train Acc: 0.9571, Val Loss: 0.1611, Val Acc: 0.9474, F1 Score: 0.9459, Recall: 0.9722, Precision: 0.9211, Sensitivity: 0.9722, Specificity: 0.9250, MCC: 0.8960, AUC: 0.9486
+Epoch [29/30], Train Loss: 0.1169, Train Acc: 0.9571, Val Loss: 0.2046, Val Acc: 0.9386, F1 Score: 0.9369, Recall: 0.9630, Precision: 0.9123, Sensitivity: 0.9630, Specificity: 0.9167, MCC: 0.8784, AUC: 0.9398
+Epoch [30/30], Train Loss: 0.1162, Train Acc: 0.9549, Val Loss: 0.1498, Val Acc: 0.9386, F1 Score: 0.9369, Recall: 0.9630, Precision: 0.9123, Sensitivity: 0.9630, Specificity: 0.9167, MCC: 0.8784, AUC: 0.9398
+Fold 4/5
+Some weights of DeiTForImageClassification were not initialized from the model checkpoint at hugging_face/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch [1/30], Train Loss: 0.6658, Train Acc: 0.5730, Val Loss: 0.5824, Val Acc: 0.6960, F1 Score: 0.7416, Recall: 0.7920, Precision: 0.6972, Sensitivity: 0.7920, Specificity: 0.5784, MCC: 0.3807, AUC: 0.6852
+Epoch [2/30], Train Loss: 0.4919, Train Acc: 0.7739, Val Loss: 0.4562, Val Acc: 0.7841, F1 Score: 0.8063, Recall: 0.8160, Precision: 0.7969, Sensitivity: 0.8160, Specificity: 0.7451, MCC: 0.5628, AUC: 0.7805
+Epoch [3/30], Train Loss: 0.3844, Train Acc: 0.8277, Val Loss: 0.4009, Val Acc: 0.8150, F1 Score: 0.8293, Recall: 0.8160, Precision: 0.8430, Sensitivity: 0.8160, Specificity: 0.8137, MCC: 0.6279, AUC: 0.8149
+Epoch [4/30], Train Loss: 0.3195, Train Acc: 0.8485, Val Loss: 0.3189, Val Acc: 0.8590, F1 Score: 0.8740, Recall: 0.8880, Precision: 0.8605, Sensitivity: 0.8880, Specificity: 0.8235, MCC: 0.7146, AUC: 0.8558
+Epoch [5/30], Train Loss: 0.2566, Train Acc: 0.8902, Val Loss: 0.2394, Val Acc: 0.9075, F1 Score: 0.9170, Recall: 0.9280, Precision: 0.9062, Sensitivity: 0.9280, Specificity: 0.8824, MCC: 0.8128, AUC: 0.9052
+Epoch [6/30], Train Loss: 0.2115, Train Acc: 0.9286, Val Loss: 0.2533, Val Acc: 0.9295, F1 Score: 0.9365, Recall: 0.9440, Precision: 0.9291, Sensitivity: 0.9440, Specificity: 0.9118, MCC: 0.8574, AUC: 0.9279
+Epoch [7/30], Train Loss: 0.1831, Train Acc: 0.9374, Val Loss: 0.1935, Val Acc: 0.9339, F1 Score: 0.9412, Recall: 0.9600, Precision: 0.9231, Sensitivity: 0.9600, Specificity: 0.9020, MCC: 0.8667, AUC: 0.9310
+Epoch [8/30], Train Loss: 0.1694, Train Acc: 0.9341, Val Loss: 0.1859, Val Acc: 0.9251, F1 Score: 0.9333, Recall: 0.9520, Precision: 0.9154, Sensitivity: 0.9520, Specificity: 0.8922, MCC: 0.8488, AUC: 0.9221
+Epoch [9/30], Train Loss: 0.1542, Train Acc: 0.9418, Val Loss: 0.1785, Val Acc: 0.9339, F1 Score: 0.9402, Recall: 0.9440, Precision: 0.9365, Sensitivity: 0.9440, Specificity: 0.9216, MCC: 0.8664, AUC: 0.9328
+Epoch [10/30], Train Loss: 0.1356, Train Acc: 0.9539, Val Loss: 0.1988, Val Acc: 0.9251, F1 Score: 0.9323, Recall: 0.9360, Precision: 0.9286, Sensitivity: 0.9360, Specificity: 0.9118, MCC: 0.8486, AUC: 0.9239
+Epoch [11/30], Train Loss: 0.1299, Train Acc: 0.9561, Val Loss: 0.1787, Val Acc: 0.9427, F1 Score: 0.9486, Recall: 0.9600, Precision: 0.9375, Sensitivity: 0.9600, Specificity: 0.9216, MCC: 0.8843, AUC: 0.9408
+Epoch [12/30], Train Loss: 0.1291, Train Acc: 0.9528, Val Loss: 0.1867, Val Acc: 0.9427, F1 Score: 0.9486, Recall: 0.9600, Precision: 0.9375, Sensitivity: 0.9600, Specificity: 0.9216, MCC: 0.8843, AUC: 0.9408
+Epoch [13/30], Train Loss: 0.1285, Train Acc: 0.9561, Val Loss: 0.1773, Val Acc: 0.9295, F1 Score: 0.9370, Recall: 0.9520, Precision: 0.9225, Sensitivity: 0.9520, Specificity: 0.9020, MCC: 0.8576, AUC: 0.9270
+Epoch [14/30], Train Loss: 0.1271, Train Acc: 0.9506, Val Loss: 0.1735, Val Acc: 0.9383, F1 Score: 0.9449, Recall: 0.9600, Precision: 0.9302, Sensitivity: 0.9600, Specificity: 0.9118, MCC: 0.8755, AUC: 0.9359
+Epoch [15/30], Train Loss: 0.1225, Train Acc: 0.9605, Val Loss: 0.1629, Val Acc: 0.9339, F1 Score: 0.9407, Recall: 0.9520, Precision: 0.9297, Sensitivity: 0.9520, Specificity: 0.9118, MCC: 0.8664, AUC: 0.9319
+Epoch [16/30], Train Loss: 0.1261, Train Acc: 0.9561, Val Loss: 0.1804, Val Acc: 0.9251, F1 Score: 0.9328, Recall: 0.9440, Precision: 0.9219, Sensitivity: 0.9440, Specificity: 0.9020, MCC: 0.8486, AUC: 0.9230
+Epoch [17/30], Train Loss: 0.1228, Train Acc: 0.9506, Val Loss: 0.1617, Val Acc: 0.9427, F1 Score: 0.9486, Recall: 0.9600, Precision: 0.9375, Sensitivity: 0.9600, Specificity: 0.9216, MCC: 0.8843, AUC: 0.9408
+Epoch [18/30], Train Loss: 0.1207, Train Acc: 0.9616, Val Loss: 0.1729, Val Acc: 0.9295, F1 Score: 0.9370, Recall: 0.9520, Precision: 0.9225, Sensitivity: 0.9520, Specificity: 0.9020, MCC: 0.8576, AUC: 0.9270
+Epoch [19/30], Train Loss: 0.1203, Train Acc: 0.9583, Val Loss: 0.1618, Val Acc: 0.9383, F1 Score: 0.9449, Recall: 0.9600, Precision: 0.9302, Sensitivity: 0.9600, Specificity: 0.9118, MCC: 0.8755, AUC: 0.9359
+Epoch [20/30], Train Loss: 0.1213, Train Acc: 0.9627, Val Loss: 0.1657, Val Acc: 0.9295, F1 Score: 0.9375, Recall: 0.9600, Precision: 0.9160, Sensitivity: 0.9600, Specificity: 0.8922, MCC: 0.8580, AUC: 0.9261
+Epoch [21/30], Train Loss: 0.1265, Train Acc: 0.9594, Val Loss: 0.1681, Val Acc: 0.9427, F1 Score: 0.9482, Recall: 0.9520, Precision: 0.9444, Sensitivity: 0.9520, Specificity: 0.9314, MCC: 0.8842, AUC: 0.9417
+Epoch [22/30], Train Loss: 0.1193, Train Acc: 0.9671, Val Loss: 0.1755, Val Acc: 0.9295, F1 Score: 0.9375, Recall: 0.9600, Precision: 0.9160, Sensitivity: 0.9600, Specificity: 0.8922, MCC: 0.8580, AUC: 0.9261
+Epoch [23/30], Train Loss: 0.1225, Train Acc: 0.9594, Val Loss: 0.1591, Val Acc: 0.9383, F1 Score: 0.9444, Recall: 0.9520, Precision: 0.9370, Sensitivity: 0.9520, Specificity: 0.9216, MCC: 0.8753, AUC: 0.9368
+Epoch [24/30], Train Loss: 0.1206, Train Acc: 0.9594, Val Loss: 0.1623, Val Acc: 0.9339, F1 Score: 0.9407, Recall: 0.9520, Precision: 0.9297, Sensitivity: 0.9520, Specificity: 0.9118, MCC: 0.8664, AUC: 0.9319
+Epoch [25/30], Train Loss: 0.1163, Train Acc: 0.9638, Val Loss: 0.2024, Val Acc: 0.9295, F1 Score: 0.9370, Recall: 0.9520, Precision: 0.9225, Sensitivity: 0.9520, Specificity: 0.9020, MCC: 0.8576, AUC: 0.9270
+Epoch [26/30], Train Loss: 0.1208, Train Acc: 0.9583, Val Loss: 0.1733, Val Acc: 0.9339, F1 Score: 0.9412, Recall: 0.9600, Precision: 0.9231, Sensitivity: 0.9600, Specificity: 0.9020, MCC: 0.8667, AUC: 0.9310
+Epoch [27/30], Train Loss: 0.1231, Train Acc: 0.9627, Val Loss: 0.1658, Val Acc: 0.9295, F1 Score: 0.9360, Recall: 0.9360, Precision: 0.9360, Sensitivity: 0.9360, Specificity: 0.9216, MCC: 0.8576, AUC: 0.9288
+Epoch [28/30], Train Loss: 0.1188, Train Acc: 0.9660, Val Loss: 0.1647, Val Acc: 0.9339, F1 Score: 0.9407, Recall: 0.9520, Precision: 0.9297, Sensitivity: 0.9520, Specificity: 0.9118, MCC: 0.8664, AUC: 0.9319
+Epoch [29/30], Train Loss: 0.1234, Train Acc: 0.9605, Val Loss: 0.1659, Val Acc: 0.9383, F1 Score: 0.9449, Recall: 0.9600, Precision: 0.9302, Sensitivity: 0.9600, Specificity: 0.9118, MCC: 0.8755, AUC: 0.9359
+Epoch [30/30], Train Loss: 0.1206, Train Acc: 0.9627, Val Loss: 0.1745, Val Acc: 0.9251, F1 Score: 0.9328, Recall: 0.9440, Precision: 0.9219, Sensitivity: 0.9440, Specificity: 0.9020, MCC: 0.8486, AUC: 0.9230
+Fold 5/5
+Epoch [1/30], Train Loss: 0.6991, Train Acc: 0.5488, Val Loss: 0.5978, Val Acc: 0.7093, F1 Score: 0.7295, Recall: 0.7355, Precision: 0.7236, Sensitivity: 0.7355, Specificity: 0.6792, MCC: 0.4153, AUC: 0.7074
+Epoch [2/30], Train Loss: 0.4835, Train Acc: 0.7936, Val Loss: 0.4628, Val Acc: 0.7841, F1 Score: 0.7967, Recall: 0.7934, Precision: 0.8000, Sensitivity: 0.7934, Specificity: 0.7736, MCC: 0.5667, AUC: 0.7835
+Epoch [3/30], Train Loss: 0.3751, Train Acc: 0.8178, Val Loss: 0.4112, Val Acc: 0.7974, F1 Score: 0.8099, Recall: 0.8099, Precision: 0.8099, Sensitivity: 0.8099, Specificity: 0.7830, MCC: 0.5929, AUC: 0.7965
+Epoch [4/30], Train Loss: 0.2870, Train Acc: 0.8650, Val Loss: 0.2844, Val Acc: 0.8502, F1 Score: 0.8595, Recall: 0.8595, Precision: 0.8595, Sensitivity: 0.8595, Specificity: 0.8396, MCC: 0.6991, AUC: 0.8496
+Epoch [5/30], Train Loss: 0.2076, Train Acc: 0.9254, Val Loss: 0.2379, Val Acc: 0.9119, F1 Score: 0.9194, Recall: 0.9421, Precision: 0.8976, Sensitivity: 0.9421, Specificity: 0.8774, MCC: 0.8236, AUC: 0.9098
+Epoch [6/30], Train Loss: 0.1814, Train Acc: 0.9308, Val Loss: 0.2079, Val Acc: 0.9119, F1 Score: 0.9187, Recall: 0.9339, Precision: 0.9040, Sensitivity: 0.9339, Specificity: 0.8868, MCC: 0.8231, AUC: 0.9103
+Epoch [7/30], Train Loss: 0.1675, Train Acc: 0.9429, Val Loss: 0.2056, Val Acc: 0.9295, F1 Score: 0.9360, Recall: 0.9669, Precision: 0.9070, Sensitivity: 0.9669, Specificity: 0.8868, MCC: 0.8599, AUC: 0.9269
+Epoch [8/30], Train Loss: 0.1491, Train Acc: 0.9473, Val Loss: 0.2163, Val Acc: 0.9119, F1 Score: 0.9174, Recall: 0.9174, Precision: 0.9174, Sensitivity: 0.9174, Specificity: 0.9057, MCC: 0.8230, AUC: 0.9115
+Epoch [9/30], Train Loss: 0.1401, Train Acc: 0.9484, Val Loss: 0.2094, Val Acc: 0.9163, F1 Score: 0.9237, Recall: 0.9504, Precision: 0.8984, Sensitivity: 0.9504, Specificity: 0.8774, MCC: 0.8328, AUC: 0.9139
+Epoch [10/30], Train Loss: 0.1210, Train Acc: 0.9517, Val Loss: 0.2065, Val Acc: 0.9031, F1 Score: 0.9083, Recall: 0.9008, Precision: 0.9160, Sensitivity: 0.9008, Specificity: 0.9057, MCC: 0.8057, AUC: 0.9032
+Epoch [11/30], Train Loss: 0.1175, Train Acc: 0.9583, Val Loss: 0.2145, Val Acc: 0.9163, F1 Score: 0.9218, Recall: 0.9256, Precision: 0.9180, Sensitivity: 0.9256, Specificity: 0.9057, MCC: 0.8318, AUC: 0.9156
+Epoch [12/30], Train Loss: 0.1146, Train Acc: 0.9616, Val Loss: 0.1947, Val Acc: 0.9251, F1 Score: 0.9306, Recall: 0.9421, Precision: 0.9194, Sensitivity: 0.9421, Specificity: 0.9057, MCC: 0.8496, AUC: 0.9239
+Epoch [13/30], Train Loss: 0.1160, Train Acc: 0.9627, Val Loss: 0.2076, Val Acc: 0.9339, F1 Score: 0.9388, Recall: 0.9504, Precision: 0.9274, Sensitivity: 0.9504, Specificity: 0.9151, MCC: 0.8673, AUC: 0.9328
+Epoch [14/30], Train Loss: 0.1155, Train Acc: 0.9561, Val Loss: 0.1900, Val Acc: 0.9251, F1 Score: 0.9306, Recall: 0.9421, Precision: 0.9194, Sensitivity: 0.9421, Specificity: 0.9057, MCC: 0.8496, AUC: 0.9239
+Epoch [15/30], Train Loss: 0.1143, Train Acc: 0.9627, Val Loss: 0.2069, Val Acc: 0.9207, F1 Score: 0.9274, Recall: 0.9504, Precision: 0.9055, Sensitivity: 0.9504, Specificity: 0.8868, MCC: 0.8413, AUC: 0.9186
+Epoch [16/30], Train Loss: 0.1136, Train Acc: 0.9583, Val Loss: 0.2008, Val Acc: 0.9339, F1 Score: 0.9388, Recall: 0.9504, Precision: 0.9274, Sensitivity: 0.9504, Specificity: 0.9151, MCC: 0.8673, AUC: 0.9328
+Epoch [17/30], Train Loss: 0.1128, Train Acc: 0.9638, Val Loss: 0.2418, Val Acc: 0.9163, F1 Score: 0.9224, Recall: 0.9339, Precision: 0.9113, Sensitivity: 0.9339, Specificity: 0.8962, MCC: 0.8319, AUC: 0.9151
+Epoch [18/30], Train Loss: 0.1165, Train Acc: 0.9616, Val Loss: 0.1836, Val Acc: 0.9339, F1 Score: 0.9383, Recall: 0.9421, Precision: 0.9344, Sensitivity: 0.9421, Specificity: 0.9245, MCC: 0.8672, AUC: 0.9333
+Epoch [19/30], Train Loss: 0.1147, Train Acc: 0.9638, Val Loss: 0.1837, Val Acc: 0.9163, F1 Score: 0.9212, Recall: 0.9174, Precision: 0.9250, Sensitivity: 0.9174, Specificity: 0.9151, MCC: 0.8320, AUC: 0.9162
+Epoch [20/30], Train Loss: 0.1103, Train Acc: 0.9616, Val Loss: 0.2616, Val Acc: 0.9251, F1 Score: 0.9300, Recall: 0.9339, Precision: 0.9262, Sensitivity: 0.9339, Specificity: 0.9151, MCC: 0.8495, AUC: 0.9245
+Epoch [21/30], Train Loss: 0.1092, Train Acc: 0.9638, Val Loss: 0.2323, Val Acc: 0.9075, F1 Score: 0.9129, Recall: 0.9091, Precision: 0.9167, Sensitivity: 0.9091, Specificity: 0.9057, MCC: 0.8143, AUC: 0.9074
+Epoch [22/30], Train Loss: 0.1115, Train Acc: 0.9671, Val Loss: 0.1988, Val Acc: 0.9207, F1 Score: 0.9256, Recall: 0.9256, Precision: 0.9256, Sensitivity: 0.9256, Specificity: 0.9151, MCC: 0.8407, AUC: 0.9204
+Epoch [23/30], Train Loss: 0.1115, Train Acc: 0.9583, Val Loss: 0.1918, Val Acc: 0.9295, F1 Score: 0.9344, Recall: 0.9421, Precision: 0.9268, Sensitivity: 0.9421, Specificity: 0.9151, MCC: 0.8584, AUC: 0.9286
+Epoch [24/30], Train Loss: 0.1090, Train Acc: 0.9660, Val Loss: 0.1945, Val Acc: 0.9295, F1 Score: 0.9344, Recall: 0.9421, Precision: 0.9268, Sensitivity: 0.9421, Specificity: 0.9151, MCC: 0.8584, AUC: 0.9286
+Epoch [25/30], Train Loss: 0.1117, Train Acc: 0.9660, Val Loss: 0.2044, Val Acc: 0.9383, F1 Score: 0.9431, Recall: 0.9587, Precision: 0.9280, Sensitivity: 0.9587, Specificity: 0.9151, MCC: 0.8764, AUC: 0.9369
+Epoch [26/30], Train Loss: 0.1110, Train Acc: 0.9671, Val Loss: 0.1906, Val Acc: 0.9251, F1 Score: 0.9300, Recall: 0.9339, Precision: 0.9262, Sensitivity: 0.9339, Specificity: 0.9151, MCC: 0.8495, AUC: 0.9245
+Epoch [27/30], Train Loss: 0.1087, Train Acc: 0.9627, Val Loss: 0.2156, Val Acc: 0.9251, F1 Score: 0.9300, Recall: 0.9339, Precision: 0.9262, Sensitivity: 0.9339, Specificity: 0.9151, MCC: 0.8495, AUC: 0.9245
+Epoch [28/30], Train Loss: 0.1102, Train Acc: 0.9605, Val Loss: 0.2030, Val Acc: 0.9251, F1 Score: 0.9295, Recall: 0.9256, Precision: 0.9333, Sensitivity: 0.9256, Specificity: 0.9245, MCC: 0.8497, AUC: 0.9251
+Epoch [29/30], Train Loss: 0.1079, Train Acc: 0.9638, Val Loss: 0.1871, Val Acc: 0.9339, F1 Score: 0.9383, Recall: 0.9421, Precision: 0.9344, Sensitivity: 0.9421, Specificity: 0.9245, MCC: 0.8672, AUC: 0.9333
+Epoch [30/30], Train Loss: 0.1070, Train Acc: 0.9649, Val Loss: 0.2042, Val Acc: 0.9295, F1 Score: 0.9339, Recall: 0.9339, Precision: 0.9339, Sensitivity: 0.9339, Specificity: 0.9245, MCC: 0.8584, AUC: 0.9292
+
+
+
+
+
+
+
+?
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+lr=0.000001 weight_decay=0.1 dropout=0.7 batcth_size=16
+Fold 1/3
+Some weights of DeiTForImageClassification were not initialized from the model checkpoint at hugging_face/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch [1/10], Train Loss: 0.7430, Train Acc: 0.4446, Val Loss: 0.7564, Val Acc: 0.4053, F1 Score: 0.3580, Recall: 0.3559, Precision: 0.3600, Sensitivity: 0.3559, Specificity: 0.4483, MCC: -0.1959, AUC: 0.4021
+Epoch [2/10], Train Loss: 0.7324, Train Acc: 0.4459, Val Loss: 0.7400, Val Acc: 0.4289, F1 Score: 0.3636, Recall: 0.3503, Precision: 0.3780, Sensitivity: 0.3503, Specificity: 0.4975, MCC: -0.1533, AUC: 0.4239
+Epoch [3/10], Train Loss: 0.7198, Train Acc: 0.4868, Val Loss: 0.7316, Val Acc: 0.4605, F1 Score: 0.4023, Recall: 0.3898, Precision: 0.4157, Sensitivity: 0.3898, Specificity: 0.5222, MCC: -0.0885, AUC: 0.4560
+Epoch [4/10], Train Loss: 0.7255, Train Acc: 0.4776, Val Loss: 0.7295, Val Acc: 0.4632, F1 Score: 0.4302, Recall: 0.4350, Precision: 0.4254, Sensitivity: 0.4350, Specificity: 0.4877, MCC: -0.0772, AUC: 0.4614
+Epoch [5/10], Train Loss: 0.7173, Train Acc: 0.4908, Val Loss: 0.7132, Val Acc: 0.4711, F1 Score: 0.4338, Recall: 0.4350, Precision: 0.4326, Sensitivity: 0.4350, Specificity: 0.5025, MCC: -0.0625, AUC: 0.4687
+Epoch [6/10], Train Loss: 0.6973, Train Acc: 0.5277, Val Loss: 0.7031, Val Acc: 0.5184, F1 Score: 0.4874, Recall: 0.4915, Precision: 0.4833, Sensitivity: 0.4915, Specificity: 0.5419, MCC: 0.0334, AUC: 0.5167
+Epoch [7/10], Train Loss: 0.6971, Train Acc: 0.5383, Val Loss: 0.6960, Val Acc: 0.5289, F1 Score: 0.5042, Recall: 0.5141, Precision: 0.4946, Sensitivity: 0.5141, Specificity: 0.5419, MCC: 0.0559, AUC: 0.5280
+Epoch [8/10], Train Loss: 0.6833, Train Acc: 0.5449, Val Loss: 0.6886, Val Acc: 0.5447, F1 Score: 0.5234, Recall: 0.5367, Precision: 0.5108, Sensitivity: 0.5367, Specificity: 0.5517, MCC: 0.0883, AUC: 0.5442
+Epoch [9/10], Train Loss: 0.6814, Train Acc: 0.5303, Val Loss: 0.6785, Val Acc: 0.5605, F1 Score: 0.5450, Recall: 0.5650, Precision: 0.5263, Sensitivity: 0.5650, Specificity: 0.5567, MCC: 0.1213, AUC: 0.5608
+Epoch [10/10], Train Loss: 0.6811, Train Acc: 0.5501, Val Loss: 0.6754, Val Acc: 0.5632, F1 Score: 0.5585, Recall: 0.5932, Precision: 0.5276, Sensitivity: 0.5932, Specificity: 0.5369, MCC: 0.1300, AUC: 0.5651
+
+------------------------------------------------------------------------------------------------------------------
+lr=0.01 weight_decay=0.01 dropout=0.3 batcth_size=64
+Fold 1/3
+Some weights of DeiTForImageClassification were not initialized from the model checkpoint at hugging_face/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch [1/10], Train Loss: 0.4745, Train Acc: 0.7665, Val Loss: 0.2135, Val Acc: 0.9079, F1 Score: 0.8980, Recall: 0.8701, Precision: 0.9277, Sensitivity: 0.8701, Specificity: 0.9409, MCC: 0.8156, AUC: 0.9055
+Epoch [2/10], Train Loss: 0.2549, Train Acc: 0.8931, Val Loss: 0.1464, Val Acc: 0.9368, F1 Score: 0.9310, Recall: 0.9153, Precision: 0.9474, Sensitivity: 0.9153, Specificity: 0.9557, MCC: 0.8733, AUC: 0.9355
+Epoch [3/10], Train Loss: 0.1170, Train Acc: 0.9644, Val Loss: 0.1435, Val Acc: 0.9553, F1 Score: 0.9539, Recall: 0.9944, Precision: 0.9167, Sensitivity: 0.9944, Specificity: 0.9212, MCC: 0.9134, AUC: 0.9578
+Epoch [4/10], Train Loss: 0.0741, Train Acc: 0.9749, Val Loss: 0.1258, Val Acc: 0.9421, F1 Score: 0.9357, Recall: 0.9040, Precision: 0.9697, Sensitivity: 0.9040, Specificity: 0.9754, MCC: 0.8850, AUC: 0.9397
+Epoch [5/10], Train Loss: 0.0331, Train Acc: 0.9908, Val Loss: 0.1113, Val Acc: 0.9579, F1 Score: 0.9548, Recall: 0.9548, Precision: 0.9548, Sensitivity: 0.9548, Specificity: 0.9606, MCC: 0.9154, AUC: 0.9577
+Epoch [6/10], Train Loss: 0.0312, Train Acc: 0.9908, Val Loss: 0.0928, Val Acc: 0.9711, F1 Score: 0.9695, Recall: 0.9887, Precision: 0.9511, Sensitivity: 0.9887, Specificity: 0.9557, MCC: 0.9426, AUC: 0.9722
+Epoch [7/10], Train Loss: 0.0271, Train Acc: 0.9908, Val Loss: 0.2118, Val Acc: 0.9500, F1 Score: 0.9491, Recall: 1.0000, Precision: 0.9031, Sensitivity: 1.0000, Specificity: 0.9064, MCC: 0.9047, AUC: 0.9532
+Epoch [8/10], Train Loss: 0.1495, Train Acc: 0.9512, Val Loss: 0.3059, Val Acc: 0.8947, F1 Score: 0.8750, Recall: 0.7910, Precision: 0.9790, Sensitivity: 0.7910, Specificity: 0.9852, MCC: 0.7992, AUC: 0.8881
+Epoch [9/10], Train Loss: 0.1162, Train Acc: 0.9591, Val Loss: 0.0979, Val Acc: 0.9658, F1 Score: 0.9642, Recall: 0.9887, Precision: 0.9409, Sensitivity: 0.9887, Specificity: 0.9458, MCC: 0.9325, AUC: 0.9673
+Epoch [10/10], Train Loss: 0.0399, Train Acc: 0.9842, Val Loss: 0.0835, Val Acc: 0.9737, F1 Score: 0.9716, Recall: 0.9661, Precision: 0.9771, Sensitivity: 0.9661, Specificity: 0.9803, MCC: 0.9471, AUC: 0.9732
+
+----------------------------------------------------------------------------------------------------------
+lr=0.00001 weight_decay=0.1 dropout=0.7 batcth_size=16
+Fold 1/3
+Some weights of DeiTForImageClassification were not initialized from the model checkpoint at hugging_face/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Epoch [1/10], Train Loss: 0.6439, Train Acc: 0.6201, Val Loss: 0.4558, Val Acc: 0.8395, F1 Score: 0.8399, Recall: 0.9040, Precision: 0.7843, Sensitivity: 0.9040, Specificity: 0.7833, MCC: 0.6875, AUC: 0.8436
+Epoch [2/10], Train Loss: 0.4267, Train Acc: 0.8034, Val Loss: 0.3274, Val Acc: 0.8816, F1 Score: 0.8673, Recall: 0.8305, Precision: 0.9074, Sensitivity: 0.8305, Specificity: 0.9261, MCC: 0.7632, AUC: 0.8783
+Epoch [3/10], Train Loss: 0.3147, Train Acc: 0.8773, Val Loss: 0.2490, Val Acc: 0.9079, F1 Score: 0.8997, Recall: 0.8870, Precision: 0.9128, Sensitivity: 0.8870, Specificity: 0.9261, MCC: 0.8149, AUC: 0.9066
+Epoch [4/10], Train Loss: 0.2465, Train Acc: 0.9169, Val Loss: 0.2198, Val Acc: 0.9184, F1 Score: 0.9096, Recall: 0.8814, Precision: 0.9398, Sensitivity: 0.8814, Specificity: 0.9507, MCC: 0.8368, AUC: 0.9160
+Epoch [5/10], Train Loss: 0.2118, Train Acc: 0.9301, Val Loss: 0.1908, Val Acc: 0.9289, F1 Score: 0.9222, Recall: 0.9040, Precision: 0.9412, Sensitivity: 0.9040, Specificity: 0.9507, MCC: 0.8575, AUC: 0.9273
+Epoch [6/10], Train Loss: 0.1796, Train Acc: 0.9380, Val Loss: 0.1833, Val Acc: 0.9342, F1 Score: 0.9275, Recall: 0.9040, Precision: 0.9524, Sensitivity: 0.9040, Specificity: 0.9606, MCC: 0.8684, AUC: 0.9323
+Epoch [7/10], Train Loss: 0.1580, Train Acc: 0.9472, Val Loss: 0.1494, Val Acc: 0.9421, F1 Score: 0.9375, Recall: 0.9322, Precision: 0.9429, Sensitivity: 0.9322, Specificity: 0.9507, MCC: 0.8836, AUC: 0.9415
+Epoch [8/10], Train Loss: 0.1480, Train Acc: 0.9525, Val Loss: 0.1492, Val Acc: 0.9368, F1 Score: 0.9318, Recall: 0.9266, Precision: 0.9371, Sensitivity: 0.9266, Specificity: 0.9458, MCC: 0.8730, AUC: 0.9362
+Epoch [9/10], Train Loss: 0.1393, Train Acc: 0.9525, Val Loss: 0.1433, Val Acc: 0.9395, F1 Score: 0.9337, Recall: 0.9153, Precision: 0.9529, Sensitivity: 0.9153, Specificity: 0.9606, MCC: 0.8787, AUC: 0.9379
+Epoch [10/10], Train Loss: 0.1305, Train Acc: 0.9578, Val Loss: 0.1466, Val Acc: 0.9474, F1 Score: 0.9432, Recall: 0.9379, Precision: 0.9486, Sensitivity: 0.9379, Specificity: 0.9557, MCC: 0.8942, AUC: 0.9468
+-----------------------------------------------------------------------------------------------------------
+lr=0.0001 weight_decay=0.01 dropout=0.5
+
+ezberledi verileri kaybettim 
+
+------------------------------------------------------------------------------------------------------------
+lr=0.001
+#Fold 1/3
+#Some weights of DeiTForImageClassification were not initialized from the model checkpoint at facebook/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+#You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+#Epoch [1/10], Train Loss: 0.5554, Train Acc: 0.7536, Val Loss: 0.3862, Val Acc: 0.8293, F1 Score: 0.8279, Recall: 0.8860, Precision: 0.7769, Sensitivity: 0.8860, Specificity: 0.7803, MCC: 0.6656, AUC: 0.8331
+#Epoch [2/10], Train Loss: 0.3146, Train Acc: 0.8717, Val Loss: 0.2250, Val Acc: 0.9228, F1 Score: 0.9148, Recall: 0.8947, Precision: 0.9358, Sensitivity: 0.8947, Specificity: 0.9470, MCC: 0.8449, AUC: 0.9209
+#Epoch [3/10], Train Loss: 0.2123, Train Acc: 0.9226, Val Loss: 0.1781, Val Acc: 0.9187, F1 Score: 0.9091, Recall: 0.8772, Precision: 0.9434, Sensitivity: 0.8772, Specificity: 0.9545, MCC: 0.8375, AUC: 0.9159
+#Epoch [4/10], Train Loss: 0.1093, Train Acc: 0.9715, Val Loss: 0.1601, Val Acc: 0.9309, F1 Score: 0.9283, Recall: 0.9649, Precision: 0.8943, Sensitivity: 0.9649, Specificity: 0.9015, MCC: 0.8641, AUC: 0.9332
+#Epoch [5/10], Train Loss: 0.0643, Train Acc: 0.9878, Val Loss: 0.1754, Val Acc: 0.9309, F1 Score: 0.9295, Recall: 0.9825, Precision: 0.8819, Sensitivity: 0.9825, Specificity: 0.8864, MCC: 0.8669, AUC: 0.9344
+#Epoch [6/10], Train Loss: 0.0393, Train Acc: 0.9939, Val Loss: 0.1359, Val Acc: 0.9431, F1 Score: 0.9402, Recall: 0.9649, Precision: 0.9167, Sensitivity: 0.9649, Specificity: 0.9242, MCC: 0.8870, AUC: 0.9446
+#Epoch [7/10], Train Loss: 0.0325, Train Acc: 0.9939, Val Loss: 0.1208, Val Acc: 0.9472, F1 Score: 0.9422, Recall: 0.9298, Precision: 0.9550, Sensitivity: 0.9298, Specificity: 0.9621, MCC: 0.8938, AUC: 0.9460
+#Epoch [8/10], Train Loss: 0.0249, Train Acc: 0.9980, Val Loss: 0.1537, Val Acc: 0.9350, F1 Score: 0.9328, Recall: 0.9737, Precision: 0.8952, Sensitivity: 0.9737, Specificity: 0.9015, MCC: 0.8729, AUC: 0.9376
+#Epoch [9/10], Train Loss: 0.0204, Train Acc: 0.9959, Val Loss: 0.1208, Val Acc: 0.9553, F1 Score: 0.9511, Recall: 0.9386, Precision: 0.9640, Sensitivity: 0.9386, Specificity: 0.9697, MCC: 0.9102, AUC: 0.9541
+#Epoch [10/10], Train Loss: 0.0144, Train Acc: 0.9980, Val Loss: 0.1625, Val Acc: 0.9350, F1 Score: 0.9333, Recall: 0.9825, Precision: 0.8889, Sensitivity: 0.9825, Specificity: 0.8939, MCC: 0.8743, AUC: 0.9382
+#Fold 2/3
+#Some weights of DeiTForImageClassification were not initialized from the model checkpoint at facebook/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+#You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+#Epoch [1/10], Train Loss: 0.5630, Train Acc: 0.7047, Val Loss: 0.3863, Val Acc: 0.8171, F1 Score: 0.8327, Recall: 0.9333, Precision: 0.7517, Sensitivity: 0.9333, Specificity: 0.7063, MCC: 0.6543, AUC: 0.8198
+#Epoch [2/10], Train Loss: 0.2787, Train Acc: 0.8839, Val Loss: 0.3178, Val Acc: 0.8537, F1 Score: 0.8349, Recall: 0.7583, Precision: 0.9286, Sensitivity: 0.7583, Specificity: 0.9444, MCC: 0.7175, AUC: 0.8514
+#Epoch [3/10], Train Loss: 0.1688, Train Acc: 0.9348, Val Loss: 0.2441, Val Acc: 0.8943, F1 Score: 0.8934, Recall: 0.9083, Precision: 0.8790, Sensitivity: 0.9083, Specificity: 0.8810, MCC: 0.7891, AUC: 0.8946
+#Epoch [4/10], Train Loss: 0.0739, Train Acc: 0.9817, Val Loss: 0.2404, Val Acc: 0.9187, F1 Score: 0.9200, Recall: 0.9583, Precision: 0.8846, Sensitivity: 0.9583, Specificity: 0.8810, MCC: 0.8404, AUC: 0.9196
+#Epoch [5/10], Train Loss: 0.0382, Train Acc: 0.9919, Val Loss: 0.2262, Val Acc: 0.9146, F1 Score: 0.9121, Recall: 0.9083, Precision: 0.9160, Sensitivity: 0.9083, Specificity: 0.9206, MCC: 0.8292, AUC: 0.9145
+#Epoch [6/10], Train Loss: 0.0173, Train Acc: 0.9980, Val Loss: 0.2531, Val Acc: 0.8984, F1 Score: 0.8988, Recall: 0.9250, Precision: 0.8740, Sensitivity: 0.9250, Specificity: 0.8730, MCC: 0.7982, AUC: 0.8990
+#Epoch [7/10], Train Loss: 0.0137, Train Acc: 0.9980, Val Loss: 0.2468, Val Acc: 0.9228, F1 Score: 0.9205, Recall: 0.9167, Precision: 0.9244, Sensitivity: 0.9167, Specificity: 0.9286, MCC: 0.8454, AUC: 0.9226
+#Epoch [8/10], Train Loss: 0.0094, Train Acc: 0.9980, Val Loss: 0.2656, Val Acc: 0.8984, F1 Score: 0.8988, Recall: 0.9250, Precision: 0.8740, Sensitivity: 0.9250, Specificity: 0.8730, MCC: 0.7982, AUC: 0.8990
+#Epoch [9/10], Train Loss: 0.0072, Train Acc: 0.9980, Val Loss: 0.2861, Val Acc: 0.9187, F1 Score: 0.9160, Recall: 0.9083, Precision: 0.9237, Sensitivity: 0.9083, Specificity: 0.9286, MCC: 0.8373, AUC: 0.9185
+#Epoch [10/10], Train Loss: 0.0063, Train Acc: 0.9980, Val Loss: 0.2854, Val Acc: 0.9024, F1 Score: 0.9032, Recall: 0.9333, Precision: 0.8750, Sensitivity: 0.9333, Specificity: 0.8730, MCC: 0.8068, AUC: 0.9032
+#Fold 3/3
+#Some weights of DeiTForImageClassification were not initialized from the model checkpoint at facebook/deit-base-distilled-patch16-224 and are newly initialized: ['classifier.bias', 'classifier.weight']
+#You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+#Epoch [1/10], Train Loss: 0.5091, Train Acc: 0.7459, Val Loss: 0.3039, Val Acc: 0.8653, F1 Score: 0.8745, Recall: 0.8456, Precision: 0.9055, Sensitivity: 0.8456, Specificity: 0.8899, MCC: 0.7315, AUC: 0.8677
+#Epoch [2/10], Train Loss: 0.2147, Train Acc: 0.9126, Val Loss: 0.1816, Val Acc: 0.9429, F1 Score: 0.9489, Recall: 0.9559, Precision: 0.9420, Sensitivity: 0.9559, Specificity: 0.9266, MCC: 0.8842, AUC: 0.9412
+#Epoch [3/10], Train Loss: 0.1114, Train Acc: 0.9614, Val Loss: 0.1655, Val Acc: 0.9306, F1 Score: 0.9382, Recall: 0.9485, Precision: 0.9281, Sensitivity: 0.9485, Specificity: 0.9083, MCC: 0.8594, AUC: 0.9284
+#Epoch [4/10], Train Loss: 0.0620, Train Acc: 0.9817, Val Loss: 0.1987, Val Acc: 0.9388, F1 Score: 0.9438, Recall: 0.9265, Precision: 0.9618, Sensitivity: 0.9265, Specificity: 0.9541, MCC: 0.8773, AUC: 0.9403
+#Epoch [5/10], Train Loss: 0.0237, Train Acc: 0.9959, Val Loss: 0.1610, Val Acc: 0.9469, F1 Score: 0.9527, Recall: 0.9632, Precision: 0.9424, Sensitivity: 0.9632, Specificity: 0.9266, MCC: 0.8926, AUC: 0.9449
+#Epoch [6/10], Train Loss: 0.0104, Train Acc: 1.0000, Val Loss: 0.1624, Val Acc: 0.9429, F1 Score: 0.9493, Recall: 0.9632, Precision: 0.9357, Sensitivity: 0.9632, Specificity: 0.9174, MCC: 0.8844, AUC: 0.9403
+#Epoch [7/10], Train Loss: 0.0062, Train Acc: 1.0000, Val Loss: 0.1783, Val Acc: 0.9429, F1 Score: 0.9493, Recall: 0.9632, Precision: 0.9357, Sensitivity: 0.9632, Specificity: 0.9174, MCC: 0.8844, AUC: 0.9403
+#Epoch [8/10], Train Loss: 0.0043, Train Acc: 1.0000, Val Loss: 0.1735, Val Acc: 0.9469, F1 Score: 0.9531, Recall: 0.9706, Precision: 0.9362, Sensitivity: 0.9706, Specificity: 0.9174, MCC: 0.8929, AUC: 0.9440
+#Epoch [9/10], Train Loss: 0.0035, Train Acc: 1.0000, Val Loss: 0.1909, Val Acc: 0.9429, F1 Score: 0.9493, Recall: 0.9632, Precision: 0.9357, Sensitivity: 0.9632, Specificity: 0.9174, MCC: 0.8844, AUC: 0.9403
+#Epoch [10/10], Train Loss: 0.0028, Train Acc: 1.0000, Val Loss: 0.1894, Val Acc: 0.9429, F1 Score: 0.9493, Recall: 0.9632, Precision: 0.9357, Sensitivity: 0.9632, Specificity: 0.9174, MCC: 0.8844, AUC: 0.9403
