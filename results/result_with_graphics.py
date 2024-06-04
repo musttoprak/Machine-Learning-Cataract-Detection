@@ -10,7 +10,7 @@ all_val_fprs = []
 all_val_tprs = []
 
 for fold in range(1, kFoldNumber + 1):
-    fold_results = torch.load(f"results/microsoft_beit_5/microsoft_beit_fold{fold}.pth")
+    fold_results = torch.load(f"results/microsoft_beit_2/microsoft_beit_fold{fold}.pth")
     all_train_losses.append(fold_results["train_losses"])
     all_val_losses.append(fold_results["val_losses"])
     all_val_fprs.append(fold_results["val_fprs"])
