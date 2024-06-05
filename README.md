@@ -18,11 +18,11 @@ git clone [https://github.com/kullaniciadi/katarakt-tespiti.git](https://github.
 
 3. Kullanım
 Projenin kullanımı için aşağıdaki adımları izleyebilirsiniz:
-
-a.Veri setini indirin ve projenin klasörüne yerleştirin.
-b.Veri setini işlemek ve modeli eğitmek için ilgili modeli models klasörü içerisinden seçip dosyasını çalıştırın.
-c.Sonuçları görselleştirmek için results/result_with_graphics.py dosyasını çalıştırın.
-d.Sonuçların ortalamasını görmek için results/result_with_text.py dosyasını çalıştırın.
-
+```
+Veri setini indirin ve projenin klasörüne yerleştirin.
+Veri setini işlemek ve modeli eğitmek için ilgili modeli models klasörü içerisinden seçip dosyasını çalıştırın.
+Sonuçları görselleştirmek için results/result_with_graphics.py dosyasını çalıştırın.
+Sonuçların ortalamasını görmek için results/result_with_text.py dosyasını çalıştırın.
+```
 4.Rapor
 Projenin detaylı raporuna [buradan](MachineLearning-CataractDetection.pdf) ulaşabilirsiniz.
