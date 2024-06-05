@@ -151,8 +151,8 @@ for fold, (train_index, val_index) in enumerate(kfold.split(X), 1):
     google_vit_model = googlenet(pretrained=True)
     num_ftrs = google_vit_model.fc.in_features
     google_vit_model.fc = nn.Linear(num_ftrs, 2)
-    google_vit_model.dropout = nn.Dropout(p=0.3)
-    optimizer = optim.SGD(google_vit_model.parameters(), lr=0.01, momentum=0.9, weight_decay=0.1)
+    google_vit_model.dropout = nn.Dropout(p=0.7)
+    optimizer = optim.SGD(google_vit_model.parameters(), lr=0.0000001, momentum=0.999, weight_decay=0.5)
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1)
     
     # Modeli eğitme ve değerlendirme

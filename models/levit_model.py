@@ -111,7 +111,7 @@ def train_and_evaluate_model(model, criterion, optimizer, train_loader, val_load
 cropped_dir = "veri_seti"
 
 kFoldNumber = 5
-epochNumber = 30
+epochNumber = 50
 
 # Veri yolları
 train_data_path = os.path.abspath(os.path.join(cropped_dir, "train"))
@@ -148,8 +148,8 @@ for fold, (train_index, val_index) in enumerate(kfold.split(X), 1):
     print(f'Fold {fold}/{kFoldNumber}')
     train_sampler = torch.utils.data.SubsetRandomSampler(train_index)
     val_sampler = torch.utils.data.SubsetRandomSampler(val_index)
-    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=16, sampler=train_sampler)
-    val_loader = torch.utils.data.DataLoader(train_dataset, batch_size=16, sampler=val_sampler)
+    train_loader = torch.utils.data.DataLoader(train_dataset, batch_size=8, sampler=train_sampler)
+    val_loader = torch.utils.data.DataLoader(train_dataset, batch_size=8, sampler=val_sampler)
 
             
     train_labels = [label for _, label in train_dataset.samples]
@@ -162,7 +162,7 @@ for fold, (train_index, val_index) in enumerate(kfold.split(X), 1):
     num_classes = 2
     levit_model.classifier = nn.Linear(levit_model.head.linear.out_features, num_classes)    
     levit_model.dropout = nn.Dropout(p=0.5)
-    optimizer = optim.SGD(levit_model.parameters(), lr=0.00001, momentum=0.99, weight_decay=0.1)
+    optimizer = optim.SGD(levit_model.parameters(), lr=0.0000001, momentum=0.9, weight_decay=0.0001)
     scheduler = optim.lr_scheduler.StepLR(optimizer, step_size=10, gamma=0.1)
     
     # Modeli eğitme ve değerlendirme

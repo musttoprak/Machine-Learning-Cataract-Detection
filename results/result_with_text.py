@@ -19,7 +19,7 @@ all_val_mcc_scores = []
 all_val_aucs = []
 
 for fold in range(1, kFoldNumber + 1):
-    fold_results = torch.load(f"results/swin/swin_fold{fold}.pth")
+    fold_results = torch.load(f"results/google_vit_4/google_vit_fold{fold}.pth")
     all_train_losses.append(fold_results["train_losses"])
     all_val_losses.append(fold_results["val_losses"])
     all_val_accs.append(fold_results["val_accs"])
